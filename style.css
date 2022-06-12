@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* PAGE SECTION */
 body {
   color: #444;
   font-family: sans-serif;
@@ -21,7 +21,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 /* nav a:link {
   font-size: 18px;
@@ -48,6 +48,7 @@ aside {
   padding: 50px 0px;
   width: 500px;
 }
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -77,6 +78,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 ul,
 ol {
@@ -86,6 +88,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 li:last-child {
   margin-bottom: 0;
@@ -152,9 +155,24 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+/* img is inline-block */
 .post-image {
   width: 100%;
   height: auto;
+  /* margin: 100px; */
+}
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
 }
 /* LVHA */
 
