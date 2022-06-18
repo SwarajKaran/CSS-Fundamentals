@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* PAGE SECTION */
 body {
@@ -47,7 +48,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 
-  padding: 50px 0px;
+  padding: 50px 40px;
 }
 /* SMALLER ELEMENTS */
 
@@ -74,6 +75,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 p {
   font-size: 22px;
@@ -116,6 +118,7 @@ li:last-child {
 } */
 .related {
   list-style: none;
+  margin-left: 0px;
 }
 
 /* body {
